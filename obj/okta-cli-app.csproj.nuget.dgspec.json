@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bennettcomfort/repos/development/okta-cli-app/okta-cli-app.csproj": {}
+  },
+  "projects": {
+    "/Users/bennettcomfort/repos/development/okta-cli-app/okta-cli-app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bennettcomfort/repos/development/okta-cli-app/okta-cli-app.csproj",
+        "projectName": "okta-cli-app",
+        "projectPath": "/Users/bennettcomfort/repos/development/okta-cli-app/okta-cli-app.csproj",
+        "packagesPath": "/Users/bennettcomfort/.nuget/packages/",
+        "outputPath": "/Users/bennettcomfort/repos/development/okta-cli-app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bennettcomfort/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Okta.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
